@@ -1,0 +1,64 @@
+body {
+    background: url("images/sunset.png") center center fixed;
+    background-size: cover;
+}
+
+#header {
+    font-size: 8vw;
+    text-align: center;
+    color: white;
+}
+
+#lap {
+    text-align: right;
+    font-size: 3vw;
+    color: white;
+}
+
+#time {
+    text-align: center;
+    font-size: 8vw;
+    color: white;
+}
+
+#controlContainer {
+    margin-bottom: 100px;
+}
+
+.control {
+    color: white;
+    background: orange;
+    border-radius: 100%;
+    height: 13vw;
+    width: 15vw;
+    text-align: center;
+    padding: 35% 0;
+    cursor: pointer;
+    font-size: 3vw;
+}
+
+.control:active {
+    background: white;
+    color: orange;
+}
+
+#laps {
+    max-height: 270px;
+    overflow-y: scroll;
+}
+
+.lap {
+    border-bottom: 1px solid white;
+    margin: 20px;
+    color: white;
+}
+
+.laptimetitle {
+    font-size: 5vw;
+    text-align: left;
+}
+
+.laptime {
+    font-size: 4vw;
+    text-align: right;
+}
